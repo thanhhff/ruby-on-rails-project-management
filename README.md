@@ -1,24 +1,9 @@
-# README
+### プロジェクトマネジメント ー Ruby on Rails 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. 新しいプロジェクトの作成
 
-Things you may want to cover:
+```
+rails new keepTasks --webpack=vue
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ソース； https://github.com/rails/webpacker#installation
