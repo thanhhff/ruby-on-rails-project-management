@@ -23,6 +23,12 @@
         <div class="content">
           <%= @project.description.html_safe %>
         </div>
+
+        <div>
+          <% if @project.image.attached? %>
+            <%= image_tag @project.image %>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>
