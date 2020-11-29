@@ -10,7 +10,7 @@ rails new keepTasks --webpack=vue
 
 #### 2. Hướng dẫn thiết lập  
 
-- Bước 1: Thiết lập môi trường trên AWS Amazon 
+- [Cloud 9] Bước 1: Thiết lập môi trường trên AWS Amazon 
 
 - Bước 2:
 ```
@@ -34,9 +34,9 @@ bundle install
     yarn install --check-files
     ```
 
-- Bước 5: 開発環境サーバーにアプリからアクセスできるようにする
+- [Cloud 9] Bước 5: 開発環境サーバーにアプリからアクセスできるようにする
 
-> config/environments/development.rbに config.hosts.clearを追加する
+    **config/environments/development.rb**に **config.hosts.clear**を追加する
 
 - Bước 6: Cài đăt Mailcatcher để nhận Email 
 
@@ -73,7 +73,7 @@ Bước 2: Bật thêm 1 `Tab Terminal` và khởi chạy Mail Server
 mailcatcher
 ```
 
-**Chú ý**: trên Cloud9 mình chưa biết cách mở MailServer để nhận Email. Nên sử dụng tài khoản sẵn sau:
+**Chú ý**: trên `Cloud9` mình chưa biết cách mở MailServer để nhận Email. Nên sử dụng tài khoản sẵn sau:
 
 ```
 Account: admin@gmail.com
