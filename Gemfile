@@ -30,7 +30,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'gravatar_image_tag'
 gem 'jquery-rails'
-gem "wysiwyg-rails"
+gem 'wysiwyg-rails'
 gem 'public_activity'
 gem 'coffee-rails'
 gem 'uglifier'
