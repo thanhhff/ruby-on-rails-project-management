@@ -1,5 +1,7 @@
 ### プロジェクトマネジメント ー Ruby on Rails 
 
+![](https://imgur.com/PfxKNlM.png)
+
 #### 1. 新しいプロジェクトの作成
 
 ```
