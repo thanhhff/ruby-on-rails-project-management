@@ -60,7 +60,7 @@ Bước 1:
 rails s 
 ```
 
-Chú ý: trong trường hợp lỗi Database thì chạy lần lượt các lệnh sau
+Chú ý: trong trường hợp chưa khởi tạo Database thì chạy lần lượt các lệnh sau
 ```
 rm -f db/*.sqlite3
 rake db:create
@@ -71,4 +71,11 @@ Bước 2: Bật thêm 1 `Tab Terminal` và khởi chạy Mail Server
 
 ```
 mailcatcher
+```
+
+**Chú ý**: trên Cloud9 mình chưa biết cách mở MailServer để nhận Email. Nên sử dụng tài khoản sẵn sau:
+
+```
+Account: admin@gmail.com
+Password: admin123456
 ```
